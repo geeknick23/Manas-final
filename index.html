@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANAS Foundation - Empowering Lives Through Connections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <h2>MANAS Foundation</h2>
+                    <span class="tagline">Empowering Lives</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#" data-page="home" class="nav-link active">Home</a>
+                    <a href="#" data-page="about" class="nav-link">About Us</a>
+                    <a href="#" data-page="register" class="nav-link">Register</a>
+                    <a href="#" data-page="profiles" class="nav-link" id="profilesLink">View Profiles</a>
+                    <a href="#" data-page="profile" class="nav-link auth-required" id="myProfileLink" style="display: none;">My Profile</a>
+                    <a href="#" data-page="get-involved" class="nav-link">Get Involved</a>
+                    <a href="#" data-page="media" class="nav-link">Media</a>
+                    <a href="#" data-page="contact" class="nav-link">Contact</a>
+                    <button class="btn btn--primary donate-btn" data-page="donate">Donate</button>
+                    <button class="btn btn--outline auth-btn" id="authBtn">Login</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home-page" class="page-content active">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-background"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Empowering Lives Through Meaningful Connections</h1>
+                    <p class="hero-subtitle">Breaking social barriers and creating a supportive community where widows and divorced women find dignity, hope, and new beginnings through compassionate matchmaking.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn--primary btn--lg" data-page="register">Join Our Community</button>
+                        <button class="btn btn--outline-white btn--lg" data-page="about">Learn More</button>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-label">Lives Empowered</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">75+</span>
+                        <span class="stat-label">Successful Matches</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Cities Reached</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Our Impact in Action</h2>
+                <p class="section-subtitle">Witness the transformation and empowerment happening in our community</p>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1748591800/pplx_project_search_images/4642922da13883bab6140a0aea8fc3f84fbef94c.jpg" alt="Community Workshop" loading="lazy">
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Community Workshop</h3>
+                            <p>Women participating in empowerment workshop</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-image placeholder">
+                            <div class="icon">👥</div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Support Group Meeting</h3>
+                            <p>Safe space for sharing experiences and support</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-image placeholder">
+                            <div class="icon">💼</div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Skills Training Session</h3>
+                            <p>Hands-on training for professional development</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-image placeholder">
+                            <div class="icon">🎉</div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Success Celebration</h3>
+                            <p>Celebrating successful matches and connections</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-image placeholder">
+                            <div class="icon">🤝</div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Volunteer Team</h3>
+                            <p>Dedicated volunteers supporting our mission</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-image placeholder">
+                            <div class="icon">🌟</div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Community Event</h3>
+                            <p>Bringing together women from different backgrounds</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements-section">
+            <div class="container">
+                <h2 class="section-title">Our Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">👩‍👩‍👧‍👦</div>
+                        <div class="achievement-content">
+                            <span class="achievement-number">200+</span>
+                            <h3>Lives Empowered</h3>
+                            <p>Women supported through our various programs</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">💕</div>
+                        <div class="achievement-content">
+                            <span class="achievement-number">75+</span>
+                            <h3>Successful Matches</h3>
+                            <p>Meaningful connections facilitated</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">🏙️</div>
+                        <div class="achievement-content">
+                            <span class="achievement-number">50+</span>
+                            <h3>Cities Reached</h3>
+                            <p>Geographic spread of our impact</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">📅</div>
+                        <div class="achievement-content">
+                            <span class="achievement-number">5+</span>
+                            <h3>Years of Service</h3>
+                            <p>Dedicated service to the community</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">Success Stories</h2>
+                <p class="section-subtitle">Hear from the women whose lives have been transformed</p>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-icon">💬</div>
+                        <p class="testimonial-text">"MANAS Foundation helped me find not just a partner, but a new beginning. The support and understanding I received made all the difference in my journey."</p>
+                        <div class="testimonial-author">
+                            <strong>Priya Sharma</strong>
+                            <span>Mumbai • Beneficiary</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-icon">💬</div>
+                        <p class="testimonial-text">"Through MANAS Foundation, I connected with someone who truly understands my situation. It's more than matchmaking - it's about rebuilding lives with dignity."</p>
+                        <div class="testimonial-author">
+                            <strong>Anita Verma</strong>
+                            <span>Delhi • Beneficiary</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-icon">💬</div>
+                        <p class="testimonial-text">"Working with MANAS Foundation has been incredibly rewarding. Seeing women regain their confidence and find happiness again is truly inspiring."</p>
+                        <div class="testimonial-author">
+                            <strong>Dr. Rajesh Gupta</strong>
+                            <span>Chennai • Volunteer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Start Your New Journey?</h2>
+                    <p>Join thousands of women who have found hope, support, and meaningful connections through our community. Take the first step towards a brighter future.</p>
+                    <div class="cta-actions">
+                        <button class="btn btn--primary btn--lg" data-page="register">Join Today</button>
+                        <button class="btn btn--secondary btn--lg" data-page="contact">Get Support</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- About Page -->
+    <div id="about-page" class="page-content">
+        <section class="about-hero">
+            <div class="container">
+                <h1>About MANAS Foundation</h1>
+                <p>Dedicated to empowering widows and divorced women through compassionate support and meaningful connections</p>
+            </div>
+        </section>
+
+        <!-- Mission & Vision -->
+        <section class="mission-vision-section">
+            <div class="container">
+                <div class="mission-vision-grid">
+                    <div class="mission-card">
+                        <div class="card-icon">🎯</div>
+                        <h2>Our Mission</h2>
+                        <p>To empower widows and divorced women by providing dignified pathways to remarriage and companionship, creating a supportive community that breaks social stigmas and promotes healing, hope, and new beginnings.</p>
+                    </div>
+                    <div class="vision-card">
+                        <div class="card-icon">🌟</div>
+                        <h2>Our Vision</h2>
+                        <p>A society where every woman, regardless of her past circumstances, has the opportunity to find love, companionship, and support in a judgment-free environment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Story Timeline -->
+        <section class="story-section">
+            <div class="container">
+                <h2 class="section-title">Our Story</h2>
+                <p class="section-subtitle">A journey of empowerment and transformation</p>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">2019</div>
+                        <div class="timeline-content">
+                            <h3>Foundation Established</h3>
+                            <p>MANAS Foundation was founded with a vision to empower widows and divorced women</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2020</div>
+                        <div class="timeline-content">
+                            <h3>First Connections</h3>
+                            <p>Facilitated our first 10 successful matches and connections</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2021</div>
+                        <div class="timeline-content">
+                            <h3>Multi-City Expansion</h3>
+                            <p>Expanded services to 15 cities across India</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2022</div>
+                        <div class="timeline-content">
+                            <h3>Digital Platform Launch</h3>
+                            <p>Launched our secure online matchmaking platform</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2023</div>
+                        <div class="timeline-content">
+                            <h3>100+ Connections</h3>
+                            <p>Reached milestone of 100+ successful matches</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-content">
+                            <h3>200+ Lives Empowered</h3>
+                            <p>Expanded programs to empower over 200 women</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Team -->
+        <section class="team-section">
+            <div class="container">
+                <h2 class="section-title">Our Team</h2>
+                <p class="section-subtitle">Dedicated professionals committed to our mission</p>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-avatar">MS</div>
+                        <div class="member-content">
+                            <h3>Dr. Meera Sharma</h3>
+                            <p class="member-role">Founder & CEO</p>
+                            <p class="member-description">Women's rights advocate with 15+ years experience in social work and women empowerment</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">RK</div>
+                        <div class="member-content">
+                            <h3>Rajesh Kumar</h3>
+                            <p class="member-role">Community Outreach Manager</p>
+                            <p class="member-description">Social worker specializing in community programs and grassroots initiatives</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">PP</div>
+                        <div class="member-content">
+                            <h3>Priya Patel</h3>
+                            <p class="member-role">Relationship Counselor</p>
+                            <p class="member-description">Licensed counselor with expertise in grief counseling and remarriage support</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">AS</div>
+                        <div class="member-content">
+                            <h3>Anita Singh</h3>
+                            <p class="member-role">Operations Manager</p>
+                            <p class="member-description">Administrative expert ensuring smooth platform operations and user experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Programs -->
+        <section class="programs-section">
+            <div class="container">
+                <h2 class="section-title">Our Programs & Initiatives</h2>
+                <div class="programs-grid">
+                    <div class="program-card">
+                        <div class="program-icon">🎓</div>
+                        <h3>Empowerment Through Skills</h3>
+                        <p>Skills training program helping women develop employable skills</p>
+                        <div class="program-stats">
+                            <span><strong>150</strong> beneficiaries</span>
+                            <span><strong>6-month</strong> programs</span>
+                        </div>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-icon">🫂</div>
+                        <h3>Counseling and Support</h3>
+                        <p>Ongoing psychological support and counseling services</p>
+                        <div class="program-stats">
+                            <span><strong>200</strong> individuals</span>
+                            <span><strong>Ongoing</strong> support</span>
+                        </div>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-icon">💻</div>
+                        <h3>Digital Literacy Initiative</h3>
+                        <p>Digital skills training for better connectivity and opportunities</p>
+                        <div class="program-stats">
+                            <span><strong>100</strong> participants</span>
+                            <span><strong>3-month</strong> cycles</span>
+                        </div>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-icon">💕</div>
+                        <h3>Matchmaking Platform</h3>
+                        <p>Secure online platform for meaningful connections</p>
+                        <div class="program-stats">
+                            <span><strong>300</strong> beneficiaries</span>
+                            <span><strong>Ongoing</strong> service</span>
+                        </div>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-icon">⚖️</div>
+                        <h3>Legal Aid Support</h3>
+                        <p>Legal assistance and guidance for critical matters</p>
+                        <div class="program-stats">
+                            <span><strong>80</strong> women</span>
+                            <span><strong>Case-by-case</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Register Page -->
+    <div id="register-page" class="page-content">
+        <section class="register-section">
+            <div class="container">
+                <div class="register-header">
+                    <h1>Join Our Community</h1>
+                    <p>Take the first step towards finding meaningful connections and support</p>
+                </div>
+                
+                <form class="registration-form" id="registrationForm">
+                    <div class="form-section">
+                        <h3>Personal Information</h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="fullName" class="form-label">Full Name *</label>
+                                <input type="text" id="fullName" name="fullName" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="age" class="form-label">Age *</label>
+                                <input type="number" id="age" name="age" class="form-control" min="18" max="100" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="city" class="form-label">City *</label>
+                                <input type="text" id="city" name="city" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="state" class="form-label">State *</label>
+                                <input type="text" id="state" name="state" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="profession" class="form-label">Profession *</label>
+                                <input type="text" id="profession" name="profession" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="education" class="form-label">Education *</label>
+                                <input type="text" id="education" name="education" class="form-control" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Contact & Status</h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="maritalStatus" class="form-label">Marital Status *</label>
+                                <select id="maritalStatus" name="maritalStatus" class="form-control" required>
+                                    <option value="">Select Status</option>
+                                    <option value="widow">Widow</option>
+                                    <option value="divorced">Divorced</option>
+                                    <option value="single">Single</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password" class="form-label">Password *</label>
+                                <input type="password" id="password" name="password" class="form-control" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Additional Information</h3>
+                        <div class="form-grid">
+                            <div class="form-group form-group-full">
+                                <label for="interests" class="form-label">Interests and Hobbies</label>
+                                <input type="text" id="interests" name="interests" class="form-control" placeholder="e.g., Reading, Gardening, Music">
+                            </div>
+                            
+                            <div class="form-group form-group-full">
+                                <label for="description" class="form-label">Brief Personal Description</label>
+                                <textarea id="description" name="description" class="form-control" rows="4" placeholder="Tell us about yourself and what you're looking for..."></textarea>
+                            </div>
+
+                            <div class="form-group form-group-full">
+                                <label for="profileImage" class="form-label">Profile Photo</label>
+                                <div class="file-upload">
+                                    <input type="file" id="profileImage" name="profileImage" class="file-input" accept="image/*">
+                                    <label for="profileImage" class="file-label">
+                                        <div class="upload-area">
+                                            <div class="upload-icon">📷</div>
+                                            <p>Click to upload photo or drag and drop</p>
+                                            <small>Max file size: 5MB</small>
+                                        </div>
+                                    </label>
+                                    <div class="image-preview" id="imagePreview"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-privacy">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="privacyAccept" name="privacyAccept" required>
+                            <span class="checkmark"></span>
+                            I accept the <a href="#" target="_blank">Privacy Policy</a> and <a href="#" target="_blank">Terms of Service</a>
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn--primary btn--lg btn--full-width">Create Account</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Login to Your Account</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail" class="form-label">Email Address</label>
+                    <input type="email" id="loginEmail" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword" class="form-label">Password</label>
+                    <input type="password" id="loginPassword" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full-width">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- My Profile Page -->
+    <div id="profile-page" class="page-content">
+        <section class="profile-section">
+            <div class="container">
+                <div class="profile-header">
+                    <h1>My Profile</h1>
+                    <button class="btn btn--outline" id="editProfileBtn">Edit Profile</button>
+                </div>
+                
+                <div class="profile-content">
+                    <div class="profile-display" id="profileDisplay">
+                        <!-- Profile information will be populated by JavaScript -->
+                    </div>
+                    
+                    <div class="profile-edit hidden" id="profileEdit">
+                        <form id="editProfileForm">
+                            <!-- Edit form will be populated by JavaScript -->
+                        </form>
+                    </div>
+                </div>
+
+                <div class="profile-tabs">
+                    <div class="tab-nav">
+                        <button class="tab-btn active" data-tab="interests">My Interests</button>
+                        <button class="tab-btn" data-tab="received">Received Interests</button>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <div class="tab-panel active" id="interests-tab">
+                            <div id="myInterests">
+                                <!-- User's expressed interests will be shown here -->
+                            </div>
+                        </div>
+                        <div class="tab-panel" id="received-tab">
+                            <div id="receivedInterests">
+                                <!-- Interests received from others will be shown here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- View Profiles Page -->
+    <div id="profiles-page" class="page-content">
+        <section class="profiles-section">
+            <div class="container">
+                <h1>Find Your Perfect Match</h1>
+                <p class="section-subtitle">Browse through our community members and find meaningful connections.</p>
+                
+                <div class="profiles-filters">
+                    <div class="filter-group">
+                        <label for="locationFilter" class="form-label">Location</label>
+                        <select id="locationFilter" class="form-control">
+                            <option value="">All Locations</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Bangalore">Bangalore</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Chennai">Chennai</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="ageFilter" class="form-label">Age Range</label>
+                        <select id="ageFilter" class="form-control">
+                            <option value="">All Ages</option>
+                            <option value="25-30">25-30</option>
+                            <option value="31-35">31-35</option>
+                            <option value="36-40">36-40</option>
+                            <option value="41-45">41-45</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="professionFilter" class="form-label">Profession</label>
+                        <select id="professionFilter" class="form-control">
+                            <option value="">All Professions</option>
+                            <option value="Teacher">Teacher</option>
+                            <option value="Engineer">Engineer</option>
+                            <option value="Doctor">Doctor</option>
+                            <option value="Business">Business</option>
+                            <option value="Manager">Manager</option>
+                            <option value="Nurse">Nurse</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <input type="text" id="searchProfiles" class="form-control" placeholder="Search profiles...">
+                    </div>
+                </div>
+                
+                <div class="profiles-grid" id="profilesGrid">
+                    <!-- Profiles will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Get Involved Page -->
+    <div id="get-involved-page" class="page-content">
+        <section class="get-involved-section">
+            <div class="container">
+                <h1>Get Involved</h1>
+                <p class="section-subtitle">Join our mission to empower women and create meaningful connections in our community.</p>
+                
+                <div class="involvement-grid">
+                    <div class="involvement-card">
+                        <div class="involvement-icon">🤝</div>
+                        <h3>Volunteer With Us</h3>
+                        <p>Become a volunteer and be part of our mission to empower women. Your time and skills can change lives and bring hope to those in need.</p>
+                        <button class="btn btn--primary" data-page="contact">Learn More</button>
+                    </div>
+                    
+                    <div class="involvement-card">
+                        <div class="involvement-icon">📖</div>
+                        <h3>Share Your Story</h3>
+                        <p>Share your story of empowerment and resilience with us. Your journey can inspire and motivate others going through similar experiences.</p>
+                        <button class="btn btn--primary" data-page="contact">Share Now</button>
+                    </div>
+                    
+                    <div class="involvement-card">
+                        <div class="involvement-icon">📅</div>
+                        <h3>Attend Our Events</h3>
+                        <p>Join our events to connect with like-minded individuals and support our cause. Together, we can create a strong community of support and understanding.</p>
+                        <button class="btn btn--primary" data-page="contact">Get Updates</button>
+                    </div>
+                </div>
+
+                <!-- Upcoming Events -->
+                <section class="events-section">
+                    <h2 class="section-title">Upcoming Events</h2>
+                    <div class="events-grid">
+                        <div class="event-card">
+                            <div class="event-date">
+                                <span class="month">JUN</span>
+                                <span class="day">15</span>
+                            </div>
+                            <div class="event-content">
+                                <h3>Women's Empowerment Workshop</h3>
+                                <p class="event-details">📅 June 15, 2025 • ⏰ 10:00 AM - 4:00 PM</p>
+                                <p class="event-location">📍 Community Center, Delhi</p>
+                                <p>Full-day workshop focused on building confidence, self-esteem, and life skills for women ready to start new chapters in their lives.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-date">
+                                <span class="month">JUN</span>
+                                <span class="day">22</span>
+                            </div>
+                            <div class="event-content">
+                                <h3>Matchmaking Meet & Greet</h3>
+                                <p class="event-details">📅 June 22, 2025 • ⏰ 3:00 PM - 6:00 PM</p>
+                                <p class="event-location">📍 Garden Venue, Mumbai</p>
+                                <p>Casual meetup event for community members to connect in a comfortable, supportive environment.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-date">
+                                <span class="month">JUL</span>
+                                <span class="day">05</span>
+                            </div>
+                            <div class="event-content">
+                                <h3>Digital Literacy Training</h3>
+                                <p class="event-details">📅 July 5, 2025 • ⏰ 9:00 AM - 1:00 PM</p>
+                                <p class="event-location">📍 Technology Center, Bangalore</p>
+                                <p>Hands-on training session to improve digital skills and online safety for better connectivity.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-date">
+                                <span class="month">JUL</span>
+                                <span class="day">20</span>
+                            </div>
+                            <div class="event-content">
+                                <h3>Annual Fundraising Gala</h3>
+                                <p class="event-details">📅 July 20, 2025 • ⏰ 7:00 PM - 11:00 PM</p>
+                                <p class="event-location">📍 Grand Ballroom, New Delhi</p>
+                                <p>Elegant evening celebrating our achievements and raising funds for continued support of our mission.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+
+    <!-- Media Page -->
+    <div id="media-page" class="page-content">
+        <section class="media-section">
+            <div class="container">
+                <h1>Media Coverage</h1>
+                <p class="section-subtitle">See how our work is making an impact and gaining recognition.</p>
+                
+                <div class="media-grid">
+                    <article class="media-card">
+                        <div class="media-image placeholder">
+                            <div class="icon">📰</div>
+                        </div>
+                        <div class="media-content">
+                            <h3>MANAS Foundation Featured in National Women's Day Coverage</h3>
+                            <div class="media-meta">
+                                <span class="media-date">📅 March 8, 2024</span>
+                                <span class="media-source">📰 Times of India</span>
+                            </div>
+                            <p>Our work in empowering widows and divorced women was highlighted in national media coverage on International Women's Day.</p>
+                            <a href="#" class="btn btn--outline btn--sm">Read More</a>
+                        </div>
+                    </article>
+                    
+                    <article class="media-card">
+                        <div class="media-image placeholder">
+                            <div class="icon">🏆</div>
+                        </div>
+                        <div class="media-content">
+                            <h3>Success Story: 50 Successful Matches This Year</h3>
+                            <div class="media-meta">
+                                <span class="media-date">📅 February 15, 2024</span>
+                                <span class="media-source">📰 Hindu Business Line</span>
+                            </div>
+                            <p>MANAS Foundation celebrates milestone of facilitating 50 successful matches between widows/divorced women and understanding partners.</p>
+                            <a href="#" class="btn btn--outline btn--sm">Read More</a>
+                        </div>
+                    </article>
+                    
+                    <article class="media-card">
+                        <div class="media-image placeholder">
+                            <div class="icon">🥇</div>
+                        </div>
+                        <div class="media-content">
+                            <h3>NGO Recognition Award for Social Impact</h3>
+                            <div class="media-meta">
+                                <span class="media-date">📅 January 20, 2024</span>
+                                <span class="media-source">📰 Indian Express</span>
+                            </div>
+                            <p>Foundation receives recognition for innovative approach to addressing social stigma around widow remarriage in Indian society.</p>
+                            <a href="#" class="btn btn--outline btn--sm">Read More</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact-page" class="page-content">
+        <section class="contact-section">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p class="section-subtitle">Get in touch with us for any questions, support, or to learn more about our mission.</p>
+                
+                <div class="contact-content">
+                    <div class="contact-form-container">
+                        <h3>Send us a Message</h3>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="contactName" class="form-label">Name *</label>
+                                <input type="text" id="contactName" name="name" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactEmail" class="form-label">Email *</label>
+                                <input type="email" id="contactEmail" name="email" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactSubject" class="form-label">Subject *</label>
+                                <input type="text" id="contactSubject" name="subject" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactMessage" class="form-label">Message *</label>
+                                <textarea id="contactMessage" name="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary btn--lg">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">📧</div>
+                                <div>
+                                    <strong>Email:</strong>
+                                    <a href="mailto:connect@manasfoundation.org">connect@manasfoundation.org</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">📱</div>
+                                <div>
+                                    <strong>Phone:</strong>
+                                    <a href="tel:+919876543210">+91-98765-43210</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div>
+                                    <strong>Address:</strong>
+                                    <span>123 Empowerment Street<br>New Delhi, India - 110001</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h4>Follow Us</h4>
+                            <div class="social-grid">
+                                <a href="https://facebook.com/manasfoundation" target="_blank" class="social-link">
+                                    <span class="social-icon">📘</span> Facebook
+                                </a>
+                                <a href="https://twitter.com/manasfoundation" target="_blank" class="social-link">
+                                    <span class="social-icon">🐦</span> Twitter
+                                </a>
+                                <a href="https://instagram.com/manasfoundation" target="_blank" class="social-link">
+                                    <span class="social-icon">📷</span> Instagram
+                                </a>
+                                <a href="https://linkedin.com/company/manasfoundation" target="_blank" class="social-link">
+                                    <span class="social-icon">💼</span> LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Donate Page -->
+    <div id="donate-page" class="page-content">
+        <section class="donation-section">
+            <div class="container">
+                <div class="donation-header">
+                    <h1>Support Our Mission</h1>
+                    <p>Your donations help us empower more women and create meaningful connections that change lives.</p>
+                </div>
+                
+                <div class="donation-content">
+                    <div class="donation-form">
+                        <h3>Make a Donation</h3>
+                        <div class="donation-amounts">
+                            <button class="amount-btn" data-amount="500">₹500</button>
+                            <button class="amount-btn" data-amount="1000">₹1,000</button>
+                            <button class="amount-btn" data-amount="2500">₹2,500</button>
+                            <button class="amount-btn" data-amount="5000">₹5,000</button>
+                        </div>
+                        
+                        <div class="custom-amount">
+                            <label for="customAmount" class="form-label">Custom Amount</label>
+                            <input type="number" id="customAmount" class="form-control" placeholder="Enter amount">
+                        </div>
+                        
+                        <div class="donation-frequency">
+                            <label class="radio-label">
+                                <input type="radio" name="frequency" value="monthly" checked>
+                                <span>Monthly</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="frequency" value="onetime">
+                                <span>One-time</span>
+                            </label>
+                        </div>
+                        
+                        <button class="btn btn--primary btn--lg btn--full-width" id="donateBtn">Donate Now</button>
+                    </div>
+                    
+                    <div class="donation-impact">
+                        <h3>Your Impact</h3>
+                        <div class="impact-visualization">
+                            <div class="impact-chart">
+                                <div class="chart-segment" style="--percentage: 25%;" data-label="Skills Training"></div>
+                                <div class="chart-segment" style="--percentage: 30%;" data-label="Counseling Services"></div>
+                                <div class="chart-segment" style="--percentage: 20%;" data-label="Platform Maintenance"></div>
+                                <div class="chart-segment" style="--percentage: 25%;" data-label="Community Outreach"></div>
+                            </div>
+                            <div class="chart-legend">
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background: var(--color-primary);"></span>
+                                    <span>Skills Training (25%)</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background: var(--color-secondary);"></span>
+                                    <span>Counseling Services (30%)</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background: var(--color-warning);"></span>
+                                    <span>Platform Maintenance (20%)</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background: var(--color-success);"></span>
+                                    <span>Community Outreach (25%)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="impact-list">
+                            <div class="impact-item">
+                                <div class="impact-icon">💰</div>
+                                <div class="impact-content">
+                                    <strong>₹500</strong>
+                                    <p>helps connect one woman with potential matches</p>
+                                </div>
+                            </div>
+                            <div class="impact-item">
+                                <div class="impact-icon">🫂</div>
+                                <div class="impact-content">
+                                    <strong>₹1,000</strong>
+                                    <p>supports counseling services for a month</p>
+                                </div>
+                            </div>
+                            <div class="impact-item">
+                                <div class="impact-icon">📢</div>
+                                <div class="impact-content">
+                                    <strong>₹2,500</strong>
+                                    <p>funds awareness programs in communities</p>
+                                </div>
+                            </div>
+                            <div class="impact-item">
+                                <div class="impact-icon">🎓</div>
+                                <div class="impact-content">
+                                    <strong>₹5,000</strong>
+                                    <p>empowers 10 women with life skills training</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MANAS Foundation</h3>
+                    <p>Empowering Lives Through Meaningful Connections</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/manasfoundation" target="_blank" class="social-link">📘</a>
+                        <a href="https://twitter.com/manasfoundation" target="_blank" class="social-link">🐦</a>
+                        <a href="https://instagram.com/manasfoundation" target="_blank" class="social-link">📷</a>
+                        <a href="https://linkedin.com/company/manasfoundation" target="_blank" class="social-link">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#" data-page="home">Home</a></li>
+                        <li><a href="#" data-page="about">About Us</a></li>
+                        <li><a href="#" data-page="register">Register</a></li>
+                        <li><a href="#" data-page="profiles">View Profiles</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#" data-page="contact">Contact Us</a></li>
+                        <li><a href="#" data-page="donate">Donate</a></li>
+                        <li><a href="#" data-page="get-involved">Get Involved</a></li>
+                        <li><a href="#" data-page="media">Media</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 connect@manasfoundation.org</p>
+                    <p>📱 +91-98765-43210</p>
+                    <p>📍 New Delhi, India</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 MANAS Foundation. All rights reserved. Made with ❤️ for empowering women.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
